@@ -6,10 +6,12 @@ import Education from "./components/Education";
 import Certifications from "./components/Certifications";
 import Projects from "./components/Projects";
 import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div id="top">
       <Navbar />
       <Hero />
       <Skills />
@@ -18,6 +20,8 @@ function App() {
       <Certifications />
       <Projects />
       <Blogs />
+      <Contact />
+      <Footer />
       
     </div>
   );
