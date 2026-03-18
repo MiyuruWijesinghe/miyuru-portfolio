@@ -56,7 +56,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com/in/miyuru-wijesinghe"
+              href="https://www.linkedin.com/in/miyuru-wijesinghe-9164022b6"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition"
@@ -65,7 +65,7 @@ function Footer() {
             </a>
 
             <a
-              href="https://medium.com/@yourusername"
+              href="https://medium.com/@miyuruwijesinghe"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition"
