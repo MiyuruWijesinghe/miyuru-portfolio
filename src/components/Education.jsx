@@ -4,13 +4,13 @@ function Education() {
 
   const education = [
     {
-      degree: "BSc (Hons) in Information Technology, Software Engineering",
+      degree: "BSc (Hons) in Information Technology - Software Engineering",
       institute: "Sri Lanka Institute of Information Technology (SLIIT)",
       period: "2019 – 2023"
     },
     {
-      degree: "ICT Technician NVQ Level 4",
-      institute: "National Apprentice & Industrial Training Authority",
+      degree: "ICT Technician - NVQ Level 4",
+      institute: "National Apprentice & Industrial Training Authority, Sri Lanka",
       period: "2017 – 2019"
     },
     {

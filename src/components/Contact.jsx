@@ -6,8 +6,8 @@ function Contact() {
     {
       icon: <FaEnvelope />,
       label: "Email",
-      value: "mkwijesinghe2016@gmail.com",
-      link: "mailto:mkwijesinghe2016@gmail.com",
+      value: "mkwijesinghe2024@gmail.com",
+      link: "mailto:mkwijesinghe2024@gmail.com",
       color: "#EA4335"
     },
     {
@@ -21,7 +21,7 @@ function Contact() {
       icon: <FaLinkedin />,
       label: "LinkedIn",
       value: "linkedin.com/in/miyuru-wijesinghe",
-      link: "https://linkedin.com/in/miyuru-wijesinghe",
+      link: "https://www.linkedin.com/in/miyuru-wijesinghe-9164022b6",
       color: "#0A66C2"
     },
     {
@@ -40,8 +40,8 @@ function Contact() {
 
         <h2 className="section-title">Contact</h2>
 
-        <p className="text-center text-gray-400 mb-12">
-          Feel free to reach out for collaborations, opportunities, or just a friendly chat.
+        <p className="text-center text-gray-400 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+          Feel free to reach out for new opportunities, collaborations, or just a friendly chat.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

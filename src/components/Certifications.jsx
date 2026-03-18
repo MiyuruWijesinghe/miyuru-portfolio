@@ -22,6 +22,11 @@ function Certifications() {
       name: "Postman API Fundamentals",
       code: " ",
       image: "/certifications/postman.png"
+    },
+    {
+      name: "ICT Technician - NVQ Level 4",
+      code: " ",
+      image: "/certifications/naita.png"
     }
   ];
 

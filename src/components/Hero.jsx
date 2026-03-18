@@ -56,7 +56,7 @@ function Hero() {
             </a>
 
             <a
-              href="https://linkedin.com/in/miyuru-wijesinghe"
+              href="https://www.linkedin.com/in/miyuru-wijesinghe-9164022b6"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition"
@@ -65,7 +65,7 @@ function Hero() {
             </a>
 
             <a
-              href="mailto:mkwijesinghe2016@gmail.com"
+              href="mailto:mkwijesinghe2024@gmail.com"
               className="hover:text-blue-400 transition"
             >
               <FaEnvelope />
