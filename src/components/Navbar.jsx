@@ -5,7 +5,7 @@ function Navbar() {
         <h1 className="text-xl font-bold">Miyuru.dev</h1>
 
         <div className="space-x-6">
-          <a href="#about">About</a>
+          <a href="#hero">About</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>

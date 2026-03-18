@@ -1,8 +1,9 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6">
+    <section id="hero" className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE */}
@@ -14,14 +15,28 @@ function Hero() {
           </h1>
 
           <h2 className="text-2xl text-gray-400 mb-6">
-            Software Engineer
+            Software Engineer |{" "}
+            <TypeAnimation
+              sequence={[
+                "Tech Enthusiast",
+                2000,
+                "Full Stack Enthusiast",
+                2000,
+                "Backend Developer",
+                2000,
+                "Java Developer",
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+              className="text-blue-400"
+            />
           </h2>
 
           <p className="text-gray-400 mb-8 leading-relaxed">
-            I build scalable backend systems and APIs using Java,
-            Spring Boot, and cloud technologies. Passionate about
-            solving complex engineering problems and building
-            reliable enterprise software.
+            Software Engineer with 7+ years of experience designing and building scalable software applications. 
+            Passionate about solving complex problems, writing clean and efficient code, collaborating with teams, and delivering reliable solutions that create real impact.
           </p>
 
           {/* BUTTONS */}
