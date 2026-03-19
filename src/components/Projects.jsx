@@ -8,56 +8,62 @@ function Projects() {
       description:
         "A system designed to manage hospital wards, bed allocation, and patient placement efficiently.",
       image: "/projects/hospital-system.png",
-      tech: ["React", "Go", "PostgreSQL"],
-      github: "https://github.com/yourrepo"
+      tech: ["React", "Go", "MySQL"],
+      githubFrontend: "https://github.com/MiyuruWijesinghe/hospital-frontend",
+      githubBackend: "https://github.com/MiyuruWijesinghe/hospital-bed-system"
     },
     {
-      title: "Core Banking API",
+      title: "RGB Aqua Mart",
       description:
-        "RESTful APIs built for financial transaction processing within a core banking platform.",
+        "E-commerce platform for aquarium products, enabling users to browse, manage, and purchase fish and accessories.",
       image: "/projects/rgb-aqua-mart.png",
-      tech: ["Java", "Spring Boot", "Oracle"],
-      github: "https://github.com/yourrepo"
+      tech: ["React","Java", "Spring Boot", "MySQL"],
+      githubFrontend: "https://github.com/MiyuruWijesinghe/rgb-aqua-mart",
+      githubBackend: "https://github.com/MiyuruWijesinghe/rgb-aqua-mart-be"
     },
     {
-      title: "Developer Portfolio",
+      title: "ASpeak Grammar",
       description:
-        "Personal portfolio website showcasing experience, projects, and certifications.",
+        "A mobile-based application that converts sign language gestures into Sinhala text.",
       image: "/projects/aspeak.png",
-      tech: ["React", "Tailwind", "Vite"],
-      github: "https://github.com/yourrepo"
+      tech: ["Python", "HTML", "JavaScript", "CSS"],
+      githubFrontend: "https://github.com/MiyuruWijesinghe/ASpeakGrammarAPI",
+      githubBackend: "https://github.com/MiyuruWijesinghe/ASpeakGrammar"
     },
     {
-      title: "Hospital Bed Management System",
+      title: "Conference Management System",
       description:
-        "A system designed to manage hospital wards, bed allocation, and patient placement efficiently.",
+        "A system designed to manage conference events, including scheduling sessions, managing attendees, and coordinating speakers efficiently.",
       image: "/projects/conference.png",
-      tech: ["React", "Go", "PostgreSQL"],
-      github: "https://github.com/yourrepo"
+      tech: ["React", "Java", "Spring Boot", "MongoDB"],
+      githubFrontend: "https://github.com/MenukaJ/conference-management-ui",
+      githubBackend: "https://github.com/MiyuruWijesinghe/conference-management"
     },
     {
-      title: "Core Banking API",
+      title: "Online Shopping Store",
       description:
-        "RESTful APIs built for financial transaction processing within a core banking platform.",
+        "E-commerce application that allows users to browse products, manage carts, and securely place orders with a smooth user experience.",
       image: "/projects/shopping.png",
-      tech: ["Java", "Spring Boot", "Oracle"],
-      github: "https://github.com/yourrepo"
+      tech: ["React", "Java", "Spring Boot", "MongoDB"],
+      githubFrontend: "https://github.com/MiyuruWijesinghe/online-shopping-store",
+      githubBackend: "https://github.com/MiyuruWijesinghe/online-shopping-store-backend"
     },
     {
-      title: "Developer Portfolio",
+      title: "Complaints Management System",
       description:
-        "Personal portfolio website showcasing experience, projects, and certifications.",
+        "A web-based system for managing and tracking public complaints for Sri Lankan Police.",
       image: "/projects/police-complaints.png",
-      tech: ["React", "Tailwind", "Vite"],
-      github: "https://github.com/yourrepo"
+      tech: ["React", "ExpressJS", "NodeJS", "MongoDB"],
+      githubFrontend: "https://github.com/hannahrahman/ITP---Group-1"
     },
     {
-      title: "Developer Portfolio",
+      title: "Online Pizza Store",
       description:
-        "Personal portfolio website showcasing experience, projects, and certifications.",
+        "A pizza ordering system that allows users to browse menus, customize orders, and manage purchases.",
       image: "/projects/pizza-store.png",
-      tech: ["React", "Tailwind", "Vite"],
-      github: "https://github.com/yourrepo"
+      tech: ["React", "Java", "Spring Boot", "MongoDB"],
+      githubFrontend: "https://github.com/MiyuruWijesinghe/PizzaStore",
+      githubBackend: "https://github.com/MiyuruWijesinghe/PizzaStore-backend"
     }
   ];
 
@@ -112,16 +118,33 @@ function Projects() {
                 </div>
 
                 {/* GitHub Link */}
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center gap-2 text-blue-400 hover:text-blue-300 hover:underline transition"
-                >
-                  <FaGithub />
-                  View Code
-                </a>
+                <div className="flex gap-4 mt-2">
 
+                  {project.githubFrontend && (
+                    <a
+                      href={project.githubFrontend}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-2 text-blue-400 text-sm hover:underline transition"
+                    >
+                      <FaGithub />
+                      Frontend
+                    </a>
+                  )}
+
+                  {project.githubBackend && (
+                    <a
+                      href={project.githubBackend}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-2 text-green-400 text-sm hover:underline transition"
+                    >
+                      <FaGithub />
+                      Backend
+                    </a>
+                  )}
+
+                </div>
               </div>
             </div>
           ))}
