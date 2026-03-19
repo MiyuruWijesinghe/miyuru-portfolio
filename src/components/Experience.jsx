@@ -12,9 +12,13 @@ function Experience() {
       period: "2024 – Present",
       points: [
         "Lead development team in Fixed Deposits domain",
-        "Develop backend APIs using Java & Spring Boot",
-        "Perform deployments to QA, UAT, and Production",
-        "Conduct code reviews and mentor engineers"
+        "Design and develop backend features for a production-grade financial system",
+        "Implement RESTful APIs using Java and Spring Boot",
+        "Perform critical deployments to QA, UAT, and Production environments",
+        "Conduct code reviews to ensure quality, maintainability, and best practices",
+        "Validate and verify source code during production releases",
+        "Prepare technical design specifications based on business requirements",
+        "Mentor trainees and support knowledge-sharing initiatives"
       ]
     },
     {
@@ -23,9 +27,11 @@ function Experience() {
       location: "Sri Lanka",
       period: "2021 – 2023",
       points: [
-        "Develop REST APIs for core banking system",
-        "Collaborate with cross-functional teams",
-        "Support release cycles and deployments"
+        "Contributed to main core banking system development project",
+        "Designed and implemented REST APIs using Spring Boot and Java",
+        "Collaborated with internal and outsourced teams in Agile environments",
+        "Supported release cycles and performed critical deployments",
+        "Ensured timely delivery of features aligned with business needs"
       ]
     },
     {
@@ -34,9 +40,11 @@ function Experience() {
       location: "Sri Lanka",
       period: "2019 – 2021",
       points: [
-        "Develop PL/SQL procedures for Oracle DB",
-        "Build reports using Jaspersoft",
-        "Fix bugs and improve modules"
+        "Balanced full-time development responsibilities while studying at SLIIT under a full scholarship",
+        "Designed transactional reports using Jaspersoft",
+        "Developed PL/SQL procedures and queries for Oracle Database",
+        "Performed bug fixes and enhancements across modules",
+        "Collaborated with team members to meet project deadlines"
       ]
     },
     {
@@ -46,8 +54,8 @@ function Experience() {
       period: "2018 – 2019",
       points: [
         "Generated reports for Food and Water Department",
-        "Provided IT troubleshooting support",
-        "Maintained systems and networking"
+        "Provided technical support using Microsoft Office tools",
+        "Assisted with networking, hardware, and software troubleshooting"
       ]
     }
   ];
@@ -127,7 +135,7 @@ function Experience() {
                     </div>
                   </div>
 
-                  <p className="text-sm text-gray-500 mb-4">
+                  <p className="text-sm text-white-500 mb-4">
                     {exp.period}
                   </p>
 

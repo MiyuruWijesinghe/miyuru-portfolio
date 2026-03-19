@@ -54,7 +54,7 @@ function Education() {
                 {edu.institute}
               </p>
 
-              <p className="text-gray-500 text-sm">
+              <p className="text-white-500 text-sm">
                 {edu.period}
               </p>
 
