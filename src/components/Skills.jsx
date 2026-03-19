@@ -1,8 +1,10 @@
-import { FaJava, FaReact, FaDatabase, FaCss3Alt } from "react-icons/fa";
-import { VscAzure } from "react-icons/vsc";
+import { FaJava, FaReact, FaDatabase, FaCss3Alt, FaBootstrap } from "react-icons/fa";
+import { VscAzure, VscJson } from "react-icons/vsc";
+import { TbApi } from "react-icons/tb";
 
 import {
   SiSpringboot,
+  SiGo,
   SiMysql,
   SiMongodb,
   SiJenkins,
@@ -10,7 +12,11 @@ import {
   SiSwagger,
   SiGooglecloud,
   SiJavascript,
-  SiHtml5
+  SiHtml5,
+  SiFirebase,
+  SiArgo,
+  SiGrafana,
+  SiJira
 } from "react-icons/si";
 
 function Skills() {
@@ -20,7 +26,10 @@ function Skills() {
       category: "Backend",
       skills: [
         { name: "Java", icon: <FaJava />, color: "#f89820" },
-        { name: "Spring Boot", icon: <SiSpringboot />, color: "#6DB33F" }
+        { name: "Spring Boot", icon: <SiSpringboot />, color: "#6DB33F" },
+        { name: "Go", icon: <SiGo />, color: "#00ADD8" },
+        { name: "APIs", icon: <TbApi />, color: "#FF6F61" },
+        { name: "JSON", icon: <VscJson />, color: "#F5F5F5" }
       ]
     },
     {
@@ -29,7 +38,8 @@ function Skills() {
         { name: "React", icon: <FaReact />, color: "#61DBFB" },
         { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
         { name: "HTML", icon: <SiHtml5 />, color: "#E34F26" },
-        { name: "CSS", icon: <FaCss3Alt />, color: "#1572B6" }
+        { name: "CSS", icon: <FaCss3Alt />, color: "#1572B6" },
+        { name: "Bootstrap", icon: <FaBootstrap />, color: "#7952B3" },
       ]
     },
     {
@@ -37,7 +47,8 @@ function Skills() {
       skills: [
         { name: "Oracle", icon: <FaDatabase />, color: "#F80000" },
         { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
-        { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" }
+        { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" },
+        { name: "Firebase", icon: <SiFirebase />, color: "#FFCA28" }
       ]
     },
     {
@@ -52,7 +63,15 @@ function Skills() {
       skills: [
         { name: "Jenkins", icon: <SiJenkins />, color: "#D24939" },
         { name: "Postman", icon: <SiPostman />, color: "#FF6C37" },
-        { name: "Swagger", icon: <SiSwagger />, color: "#85EA2D" }
+        { name: "Swagger", icon: <SiSwagger />, color: "#85EA2D" },
+        { name: "Argo CD", icon: <SiArgo />, color: "#EF7B4D" },
+        { name: "Grafana", icon: <SiGrafana />, color: "#F46800" }
+      ]
+    },
+    {
+      category: "Workflow Platforms",
+      skills: [
+        { name: "JIRA", icon: <SiJira />, color: "#4285F4" }
       ]
     }
   ];
