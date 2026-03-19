@@ -34,9 +34,14 @@ function Hero() {
             />
           </h2>
 
-          <p className="text-gray-400 mb-8 leading-relaxed">
+          <p className="text-gray-400 mb-4 leading-relaxed">
             Software Engineer with 7+ years of experience designing and building scalable software applications. 
             Passionate about solving complex problems, writing clean and efficient code, collaborating with teams, and delivering reliable solutions that create real impact.
+          </p>
+
+          <p className="text-gray-400 mb-4 leading-relaxed">
+            Passionate about Information and Communication Technology since childhood, 
+            I have grown my career step by step into a Software Engineer.
           </p>
 
           {/* BUTTONS */}
@@ -91,15 +96,21 @@ function Hero() {
 
         {/* RIGHT SIDE */}
         <div className="flex justify-center">
-          <div className="w-72 h-72 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
 
-            <span className="text-6xl font-bold text-white">
-              MK
-            </span>
+          <div className="relative w-72 aspect-[3/4]">
+
+            {/* Glow Effect */}
+            <div className="absolute inset-0 bg-blue-500 blur-2xl opacity-30 rounded-xl"></div>
+
+            {/* Image */}
+            <img
+              src="/profile.png"
+              alt="Miyuru Kanishka"
+              className="relative w-full h-full object-cover rounded-xl border border-gray-800 shadow-lg hover:border-blue-500 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] hover:scale-105 transition duration-300"
+            />
 
           </div>
         </div>
-
       </div>
     </section>
   );
