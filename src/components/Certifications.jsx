@@ -11,22 +11,22 @@ function Certifications() {
     {
       name: "Azure AI Fundamentals",
       code: "AI-900",
-      image: "/certifications/ai900.png"
+      image: `${import.meta.env.BASE_URL}certifications/ai900.png`
     },
     {
       name: "Azure Security Fundamentals",
       code: "SC-900",
-      image: "/certifications/sc900.png"
+      image: `${import.meta.env.BASE_URL}certifications/sc900.png`
     },
     {
       name: "Postman API Fundamentals",
       code: " ",
-      image: "/certifications/postman.png"
+      image: `${import.meta.env.BASE_URL}certifications/postman.png`
     },
     {
       name: "ICT Technician - NVQ Level 4",
       code: " ",
-      image: "/certifications/naita.png"
+      image: `${import.meta.env.BASE_URL}certifications/naita.png`
     }
   ];
 
