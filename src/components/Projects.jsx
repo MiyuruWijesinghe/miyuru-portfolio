@@ -7,7 +7,7 @@ function Projects() {
       title: "Hospital Bed Management System",
       description:
         "A system designed to manage hospital wards, bed allocation, and patient placement efficiently.",
-      image: "/projects/hospital-system.png",
+      image: `${import.meta.env.BASE_URL}projects/hospital-system.png`,
       tech: ["React", "Go", "MySQL"],
       githubFrontend: "https://github.com/MiyuruWijesinghe/hospital-frontend",
       githubBackend: "https://github.com/MiyuruWijesinghe/hospital-bed-system"
@@ -16,7 +16,7 @@ function Projects() {
       title: "RGB Aqua Mart",
       description:
         "E-commerce platform for aquarium products, enabling users to browse, manage, and purchase fish and accessories.",
-      image: "/projects/rgb-aqua-mart.png",
+      image: `${import.meta.env.BASE_URL}projects/rgb-aqua-mart.png`,
       tech: ["React","Java", "Spring Boot", "MySQL"],
       githubFrontend: "https://github.com/MiyuruWijesinghe/rgb-aqua-mart",
       githubBackend: "https://github.com/MiyuruWijesinghe/rgb-aqua-mart-be"
@@ -25,7 +25,7 @@ function Projects() {
       title: "ASpeak Grammar",
       description:
         "A mobile-based application that converts sign language gestures into Sinhala text.",
-      image: "/projects/aspeak.png",
+      image: `${import.meta.env.BASE_URL}projects/aspeak.png`,
       tech: ["Python", "HTML", "JavaScript", "CSS"],
       githubFrontend: "https://github.com/MiyuruWijesinghe/ASpeakGrammarAPI",
       githubBackend: "https://github.com/MiyuruWijesinghe/ASpeakGrammar"
@@ -34,7 +34,7 @@ function Projects() {
       title: "Conference Management System",
       description:
         "A system designed to manage conference events, including scheduling sessions, managing attendees, and coordinating speakers efficiently.",
-      image: "/projects/conference.png",
+      image: `${import.meta.env.BASE_URL}projects/conference.png`,
       tech: ["React", "Java", "Spring Boot", "MongoDB"],
       githubFrontend: "https://github.com/MenukaJ/conference-management-ui",
       githubBackend: "https://github.com/MiyuruWijesinghe/conference-management"
@@ -43,7 +43,7 @@ function Projects() {
       title: "Online Shopping Store",
       description:
         "E-commerce application that allows users to browse products, manage carts, and securely place orders with a smooth user experience.",
-      image: "/projects/shopping.png",
+      image: `${import.meta.env.BASE_URL}projects/shopping.png`,
       tech: ["React", "Java", "Spring Boot", "MongoDB"],
       githubFrontend: "https://github.com/MiyuruWijesinghe/online-shopping-store",
       githubBackend: "https://github.com/MiyuruWijesinghe/online-shopping-store-backend"
@@ -52,7 +52,7 @@ function Projects() {
       title: "Complaints Management System",
       description:
         "A web-based system for managing and tracking public complaints for Sri Lankan Police.",
-      image: "/projects/police-complaints.png",
+      image: `${import.meta.env.BASE_URL}projects/police-complaints.png`,
       tech: ["React", "ExpressJS", "NodeJS", "MongoDB"],
       githubFrontend: "https://github.com/hannahrahman/ITP---Group-1"
     },
@@ -60,7 +60,7 @@ function Projects() {
       title: "Online Pizza Store",
       description:
         "A pizza ordering system that allows users to browse menus, customize orders, and manage purchases.",
-      image: "/projects/pizza-store.png",
+      image: `${import.meta.env.BASE_URL}projects/pizza-store.png`,
       tech: ["React", "Java", "Spring Boot", "MongoDB"],
       githubFrontend: "https://github.com/MiyuruWijesinghe/PizzaStore",
       githubBackend: "https://github.com/MiyuruWijesinghe/PizzaStore-backend"
