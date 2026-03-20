@@ -104,7 +104,7 @@ function Hero() {
 
             {/* Image */}
             <img
-              src="/profile.png"
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Miyuru Kanishka"
               className="relative w-full h-full object-cover rounded-xl border border-gray-800 shadow-lg hover:border-blue-500 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] hover:scale-105 transition duration-300"
             />
