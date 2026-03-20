@@ -6,7 +6,7 @@ function Certifications() {
     {
       name: "Azure Fundamentals",
       code: "AZ-900",
-      image: "certifications/az900.png"
+      image: `${import.meta.env.BASE_URL}certifications/az900.png`
     },
     {
       name: "Azure AI Fundamentals",
