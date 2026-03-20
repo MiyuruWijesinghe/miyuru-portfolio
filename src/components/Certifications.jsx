@@ -6,7 +6,7 @@ function Certifications() {
     {
       name: "Azure Fundamentals",
       code: "AZ-900",
-      image: "/certifications/az900.png"
+      image: "certifications/az900.png"
     },
     {
       name: "Azure AI Fundamentals",
