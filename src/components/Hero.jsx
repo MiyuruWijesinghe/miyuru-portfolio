@@ -1,11 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import { useState } from "react";
 
 function Hero() {
-
-  const [loaded, setLoaded] = useState(false);
-
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
@@ -103,17 +99,14 @@ function Hero() {
 
           <div className="relative w-72 aspect-[3/4]">
 
-            {/* Skeleton Loader */}
-            {!loaded && (
-              <div className="absolute inset-0 rounded-xl bg-gray-800 animate-pulse"></div>
-            )}
+            {/* Glow Effect */}
+            <div className="absolute inset-0 bg-blue-500 blur-2xl opacity-30 rounded-xl"></div>
 
             {/* Image */}
             <img
               src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Miyuru Kanishka"
-              onLoad={() => setLoaded(true)}
-              className={`relative w-full h-full object-cover rounded-xl border border-gray-800 shadow-lg transition duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
+              className="relative w-full h-full object-cover rounded-xl border border-gray-800 shadow-lg hover:border-blue-500 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] hover:scale-105 transition duration-300"
             />
 
           </div>
