@@ -9,7 +9,7 @@ function Blogs() {
     const fetchBlogs = async () => {
 
       const res = await fetch(
-        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@miyuruwijesinghe"
+        "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@miyuruwijesinghe&cache=false"
       );
 
       const data = await res.json();
