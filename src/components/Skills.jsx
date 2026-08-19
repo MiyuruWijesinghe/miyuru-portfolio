@@ -1,6 +1,6 @@
-import { FaJava, FaReact, FaDatabase, FaCss3Alt, FaBootstrap } from "react-icons/fa";
+import { FaJava, FaReact, FaDatabase, FaCss3Alt, FaBootstrap, FaGoogle } from "react-icons/fa";
 import { VscAzure, VscJson } from "react-icons/vsc";
-import { TbApi } from "react-icons/tb";
+import { TbApi, TbVideo } from "react-icons/tb";
 
 import {
   SiSpringboot,
@@ -16,7 +16,11 @@ import {
   SiFirebase,
   SiArgo,
   SiGrafana,
-  SiJira
+  SiJira,
+  SiOpenai,
+  SiClaude,
+  SiGooglegemini,
+  SiGithubcopilot
 } from "react-icons/si";
 
 function Skills() {
@@ -72,6 +76,17 @@ function Skills() {
       category: "Workflow Platforms",
       skills: [
         { name: "JIRA", icon: <SiJira />, color: "#4285F4" }
+      ]
+    },
+    {
+      category: "AI Tools",
+      skills: [
+        { name: "ChatGPT", icon: <SiOpenai />, color: "#10A37F" },
+        { name: "Claude Code", icon: <SiClaude />, color: "#D97757" },
+        { name: "Gemini", icon: <SiGooglegemini />, color: "#8E75B2" },
+        { name: "GitHub Copilot", icon: <SiGithubcopilot />, color: "#F5F5F5" },
+        { name: "Kling", icon: <TbVideo />, color: "#FF6A3D" },
+        { name: "Google Flow", icon: <FaGoogle />, color: "#4285F4" }
       ]
     }
   ];
