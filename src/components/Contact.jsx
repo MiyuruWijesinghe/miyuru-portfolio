@@ -67,7 +67,7 @@ function Contact() {
                 {contact.label}
               </p>
 
-              <p className="text-xs text-gray-400 text-center px-2">
+              <p className="text-[11px] sm:text-xs text-gray-400 text-center px-2 break-words">
                 {contact.value}
               </p>
 

@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center px-6">
+    <section id="hero" className="min-h-screen flex items-center justify-center px-6 pt-24 pb-12 md:py-0">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE */}
