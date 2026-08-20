@@ -19,7 +19,7 @@ function Footer() {
           </a>
 
           {/* Navigation */}
-          <div className="flex gap-6 text-sm text-gray-400">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-400">
 
             <a href="#skills" className="hover:text-white transition">
               Skills
