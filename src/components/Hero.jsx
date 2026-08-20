@@ -14,7 +14,7 @@ function Hero() {
             Miyuru Kanishka
           </h1>
 
-          <h2 className="text-2xl text-gray-400 mb-6">
+          <h2 className="text-2xl text-gray-400 mb-6 min-h-16 md:min-h-0">
             Software Engineer |{" "}
             <TypeAnimation
               sequence={[
