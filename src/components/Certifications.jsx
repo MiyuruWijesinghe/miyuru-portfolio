@@ -24,6 +24,11 @@ function Certifications() {
       image: `${import.meta.env.BASE_URL}certifications/gh900.png`
     },
     {
+      name: "GitHub Copilot",
+      code: "GH-300",
+      image: `${import.meta.env.BASE_URL}certifications/gh300.png`
+    },
+    {
       name: "Postman API Fundamentals",
       code: " ",
       image: `${import.meta.env.BASE_URL}certifications/postman.png`
